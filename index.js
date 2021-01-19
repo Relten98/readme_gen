@@ -1,11 +1,7 @@
 // array of questions for user
 let questions = [
-    type: 'input',
-    message: "What is the title of your project?",
-    name: 'title',
+
     
-
-
 ];
 
 console.log(questions)
