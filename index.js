@@ -1,5 +1,8 @@
 // array of questions for user
 const questions = [
+    projectName: "Readme Generator";
+    author: "Ty Diezhandino";
+    features: "Makes a readme";
 
 ];
 
