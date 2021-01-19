@@ -1,5 +1,9 @@
 // array of questions for user
-const questions = [
+let questions = [
+    type: 'input',
+    message: "What is the title of your project?",
+    name: 'title',
+    
 
 
 ];
