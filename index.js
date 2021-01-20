@@ -2,7 +2,7 @@
 let questions = [
     {
         type: "input",
-        name: "Title_of_project",
+        name: "title_of_project",
         message: "What is the project title?",
     },
     {
@@ -12,7 +12,7 @@ let questions = [
     },
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "What does the project do?",
     },
     {
@@ -22,12 +22,12 @@ let questions = [
     },
     {
         type: "input",
-        name: "Features",
+        name: "features",
         message: "What does the project do?",
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "how do you install the project?",
     },
     {
@@ -37,8 +37,13 @@ let questions = [
     },
     {
         type: "input",
-        name: "Installation",
-        message: "how do you install the project?",
+        name: "github",
+        message: "What is your github username?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "what is your email?",
     },
     
 ];
