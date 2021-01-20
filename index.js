@@ -12,6 +12,11 @@ let questions = [
     },
     {
         type: "input",
+        name: "Usage",
+        message: "What does the project do?",
+    },
+    {
+        type: "input",
         name: "license",
         message: "What is the liscence for this project?",
     },
@@ -19,6 +24,16 @@ let questions = [
         type: "input",
         name: "Features",
         message: "What does the project do?",
+    },
+    {
+        type: "input",
+        name: "Installation",
+        message: "how do you install the project?",
+    },
+    {
+        type: "input",
+        name: "contributors ",
+        message: "any contributors?",
     },
     {
         type: "input",
