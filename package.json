@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "homepage": "https://github.com/Relten98/readme_gen",
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.5.2"
   }
 }
