@@ -1,10 +1,12 @@
 // array of questions for user
-const util = require("util");
-
 const inquirer = require("inquirer");
 
-const generateReadme = require("./utils/generateReadme")
+const util = require("util");
 
+/// Hopefully this will actually do the job! ///
+const createReadme = require("./utils/generateReadme")
+
+/// User input fields. 
 let questions = [
     {
         type: "input",
