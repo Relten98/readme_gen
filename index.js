@@ -19,11 +19,6 @@ function userQuestions() {
         message: "Who made this project?",
     },
     {
-        type: "input",
-        name: "usage",
-        message: "What does the project do?",
-    },
-    {
         type: "list",
         name: "license",
         message: "Chose the appropriate license for this project: ",
@@ -40,12 +35,17 @@ function userQuestions() {
     {
         type: "input",
         name: "features",
-        message: "What are the features of the application?",
+        message: "What does this project do?",
     },
     {
         type: "input",
         name: "installation",
         message: "how do you install the project?",
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "how do you use the project?",
     },
     {
         type: "input",
@@ -71,10 +71,10 @@ async function init() {
         // Ask user questions and generate responses
         const answers = await userQuestions();
         // Then magically spits out a readme following the template.
-        const createReadme = createReadme(answers);
+        const populateReadme = createReadme(answers);
 
         // Write new README.md to dist directory
-        await writeFileAsync('./dist/README.md', createReadme);
+        await writeFileAsync('./output/README.md', createReadme);
         console.log('Successfully wrote to README.md');
 
         // Backup error just in case.
