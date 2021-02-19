@@ -1,13 +1,13 @@
-// array of questions for user
+// Important Dependencies....
 const inquirer = require("inquirer");
-
-const util = require("util");
-
+const utils = require("util");
+const fs = require("fs");
+const createReadme = require("./utils/generateMarkdown")
 /// Hopefully this will actually do the job! ///
-const createReadme = require("./utils/generateReadme")
-
+const writeFileAsync = utils.promisify(fs.writeFile);
 /// User input fields. 
-let questions = [
+function userQuestions() {
+    return inquirer.prompt([
     {
         type: "input",
         name: "title_of_project",
@@ -24,14 +24,23 @@ let questions = [
         message: "What does the project do?",
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
-        message: "What is the liscence for this project?",
+        message: "Chose the appropriate license for this project: ",
+        choices: [
+            "Apache",
+            "Academic",
+            "GNU",
+            "ISC",
+            "MIT",
+            "Mozilla",
+            "Open"
+        ]
     },
     {
         type: "input",
         name: "features",
-        message: "What does the project do?",
+        message: "What are the features of the application?",
     },
     {
         type: "input",
@@ -53,21 +62,27 @@ let questions = [
         name: "email",
         message: "what is your email?",
     },
-    
-];
+]);
+} 
 
-console.log(questions)
+// Async function that reads the user prompt
+async function init() {
+    try {
+        // Ask user questions and generate responses
+        const answers = await userQuestions();
+        // Then magically spits out a readme following the template.
+        const createReadme = createReadme(answers);
 
-// function to write README file
-function writeToFile(fileName, data) {
+        // Write new README.md to dist directory
+        await writeFileAsync('./dist/README.md', createReadme);
+        console.log('Successfully wrote to README.md');
 
-}
-
-// function to initialize program
-function init() {
-    writeToFile();
-    console.log("File written!")
-}
-
-// function call to initialize program
-init();
+        // Backup error just in case.
+    }   catch(err) {
+        console.log("Uh oh, Looks like something went horrifically wrong!")
+        console.log(err);
+    }
+  }
+  
+  //Majick startup
+  init();  
