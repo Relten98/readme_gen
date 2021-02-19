@@ -11,9 +11,14 @@
    Simply download the file, and extract it to where ever you'd like it.
   
   ## Usage
-   run it through NODE.JS and fill out the prompts when asked. 
-  ![img](https://github.com/Relten98/readme_gen/blob/main/public/readme-generator.gif)
-   ## License
+  All you need to do in order to run this simple little application, is just open it up in NODE.JS.
+  
+  From there, you will be prompted with various questions about the project. Simply answers the questions, and your readme will be displayed. 
+  Almost like magic!
+  
+  ![A gif image showcasing the usage of the application](https://github.com/Relten98/readme_gen/blob/main/public/readme-generator.gif)
+  A gif image showcasing the usage of the application
+  ## License
   ![badge](https://img.shields.io/badge/license-Open-red)
   <br />
 
