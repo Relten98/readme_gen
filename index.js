@@ -1,10 +1,9 @@
 // Important Dependencies....
-const inquirer = require("inquirer");
-const utils = require("util");
 const fs = require("fs");
-const createReadme = require("./utils/generateMarkdown")
-/// Hopefully this will actually do the job! ///
-const writeFileAsync = utils.promisify(fs.writeFile);
+const util = require("util");
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown")
+const writeFileAsync = util.promisify(fs.writeFile);
 /// User input fields. 
 function userQuestions() {
     return inquirer.prompt([
@@ -71,10 +70,10 @@ async function init() {
         // Ask user questions and generate responses
         const answers = await userQuestions();
         // Then magically spits out a readme following the template.
-        const populateReadme = createReadme(answers);
+        const populateReadme = generateMarkdown(answers);
 
         // Write new README.md to dist directory
-        await writeFileAsync('./output/README.md', createReadme);
+        await writeFileAsync('./output/README.md', populateReadme);
         console.log('Successfully wrote to README.md');
 
         // Backup error just in case.
