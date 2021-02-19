@@ -2,7 +2,8 @@
 function generateMarkdown(answers) {
   return `
   <h1 align="center">${answers.title_of_project}</h1>
-  ![badge](https://img.shields.io/badge/license-${answers.license}-red)<br />
+  ![badge](https://img.shields.io/badge/license-${answers.license}-red)
+  <br />
 
   Made by ${answers.author}
 

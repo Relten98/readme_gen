@@ -1,6 +1,7 @@
 
   <h1 align="center">Read-me Generator</h1>
-  ![badge](https://img.shields.io/badge/license-Open-red)<br />
+  ![badge](https://img.shields.io/badge/license-Open-red)
+  <br />
 
   Made by Ty Diezhandino (Relten)
 
