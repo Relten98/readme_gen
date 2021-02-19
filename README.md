@@ -1,5 +1,5 @@
 
-  <h1 align="center">Read-me Generator</h1>
+  <h1 align="center">The Readme Generator!</h1>
   <br />
 
   Made by Ty Diezhandino (Relten)
@@ -12,7 +12,7 @@
   
   ## Usage
    run it through NODE.JS and fill out the prompts when asked. 
-  
+  ![img](https://github.com/Relten98/readme_gen/blob/main/public/readme-generator.gif)
    ## License
   ![badge](https://img.shields.io/badge/license-Open-red)
   <br />
