@@ -2,8 +2,11 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
+
+// The magic marker that creates the actual file now.
 const generateMarkdown = require("./utils/generateMarkdown")
 const writeFileAsync = util.promisify(fs.writeFile);
+
 /// User input fields. 
 function userQuestions() {
     return inquirer.prompt([
