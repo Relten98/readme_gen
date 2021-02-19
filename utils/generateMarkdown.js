@@ -2,7 +2,6 @@
 function generateMarkdown(answers) {
   return `
   <h1 align="center">${answers.title_of_project}</h1>
-  ![badge](https://img.shields.io/badge/license-${answers.license}-red)
   <br />
 
   Made by ${answers.author}
@@ -30,6 +29,8 @@ function generateMarkdown(answers) {
   ## Tests
   ${answers.tests}
   <br />
+  
+  ## Contact information
   GitHub: [${answers.username}](https://github.com/${answers.username})
   <br />
   <br/>

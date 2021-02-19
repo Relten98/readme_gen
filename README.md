@@ -1,6 +1,5 @@
 
   <h1 align="center">Read-me Generator</h1>
-  ![badge](https://img.shields.io/badge/license-Open-red)
   <br />
 
   Made by Ty Diezhandino (Relten)
@@ -9,10 +8,10 @@
    A simple node.js based README Generator to construct a some-what professional README.
 
   ## Installation
-   Simply download the file, extract it, and run it through node.js
+   Simply download the file, and extract it to where ever you'd like it.
   
   ## Usage
-   NODE.JS 
+   run it through NODE.JS and fill out the prompts when asked. 
   
    ## License
   ![badge](https://img.shields.io/badge/license-Open-red)
@@ -23,13 +22,15 @@
   Users are (hopefully) expected to follow this lisense guidelines, or else they shalt be smitten with the wrath of my dissapointment.
 
   ## Contributors
-   undefined
+   None
   
   ## Tests
-  undefined
+  None!
+
+  ## Contact
   <br />
-  GitHub: [undefined](https://github.com/undefined)
+  GitHub: [Relten98](https://github.com/Relten98)
   <br />
   <br/>
-  Have any questions? feel free to email at: --
+  Have any questions? feel free to email at: wafelkick@gmail.com
       
