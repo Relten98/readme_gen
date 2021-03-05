@@ -35,10 +35,10 @@
   Users are (hopefully) expected to follow this lisense guidelines, or else they shalt be smitten with the wrath of my dissapointment.
 
   # <a name="contributors"></a> Contributors
-   undefined
+   No contributors
   
   # <a name="tests"></a> Tests
-  undefined
+  No tests listed
   <br />
   
   # <a name="contact"></a> Contact information
