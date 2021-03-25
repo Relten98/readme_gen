@@ -44,7 +44,7 @@ function generateMarkdown(answers) {
   <br />
   
   # <a name="contact"></a> Contact information
-  GitHub: [${answers.username}](https://github.com/${answers.username})
+  GitHub: [${answers.github}](https://github.com/${answers.github})
   <br />
   <br/>
   Have any questions? feel free to email at: ${answers.email}

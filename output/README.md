@@ -1,8 +1,8 @@
 
-  <h1 align="center">Readme Generator</h1>
+  <h1 align="center">Employee Tracker</h1>
   <br />
 
-  Made by Ty Diezhandino
+  Made by Ty "Relten" Diezhandino
 ##  Table of contents
 
 [Description / Features](#description)
@@ -18,32 +18,32 @@
 [Contact information](#contact)
 
   # <a name="description"></a> Description / Features
-   Generates readmes based in user input, through an inquirer prompt
+   Allows the user to look at the employees of a company, and get information on them using react.
 
   # <a name="installation"></a> Installation
-   Simply perform a pull through git, or download the file as a .zip
+   Simply click on the deploy link (...), Or install it.
   
   # <a name="usage"></a> Usage
-   After extracting the file, open the Index.js file in node, with node index.js, and fill out the questions when prompted.
+   Upon navigating to the website, click on the proper information when prompted.
   
   # License
-  ![badge](https://img.shields.io/badge/license-Open-red)
+  ![badge](https://img.shields.io/badge/license-MIT-red)
   <br />
 
-  This application is covered by the Open license. 
+  This application is covered by the MIT license. 
   
   Users are (hopefully) expected to follow this lisense guidelines, or else they shalt be smitten with the wrath of my dissapointment.
 
   # <a name="contributors"></a> Contributors
-   No contributors
+   undefined
   
   # <a name="tests"></a> Tests
-  No tests listed
+  undefined
   <br />
   
   # <a name="contact"></a> Contact information
-  GitHub: [undefined](https://github.com/undefined)
+  GitHub: [relten98](https://github.com/relten98)
   <br />
   <br/>
-  Have any questions? feel free to email at: diezhandinoty@gmail.com
+  Have any questions? feel free to email at: null
       

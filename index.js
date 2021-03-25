@@ -42,17 +42,17 @@ function userQuestions() {
     {
         type: "input",
         name: "installation",
-        message: "how do you install the project?",
+        message: "How do you install the project?",
     },
     {
         type: "input",
         name: "usage",
-        message: "how do you use the project?",
+        message: "How do you use the project?",
     },
     {
         type: "input",
         name: "contributors ",
-        message: "any contributors?",
+        message: "Any contributors?",
     },
     {
         type: "input",
